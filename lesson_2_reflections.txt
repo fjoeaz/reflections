@@ -1,0 +1,9 @@
+What happens when you initialize a repository?
+	The nessecary files for a git repository are generated.
+
+Why do you need to do it?
+	Without them how would you know to track anything on a given folder.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	By checking for current changes between the staging area and the repository.
+
