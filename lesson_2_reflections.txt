@@ -1,9 +1,25 @@
 What happens when you initialize a repository?
-	The nessecary files for a git repository are generated.
-
+	The necessary files for a GIT repository are generated.
 Why do you need to do it?
-	Without them how would you know to track anything on a given folder.
+	Without them, you would never know when to track anything on a given folder.
 
 How can you use the staging area to make sure you have one commit per logical change?
-	By checking for current changes between the staging area and the repository.
+	You can use it by checking for current changes between the staging area and the repository.
+
+What are some situations when branches would be helpful in keeping your history organized?
+	Branching gives another hierarchal structure to the revision process. A branch is to a commit as a set of changes is to a file.
+How would branches help?
+	As stated in the question they help to organize.
+
+How do the diagrams help you visualize the branch structure?
+	Whether you are a visual learner on not having a GUI and diagrams only helps to enable one to process the complex hierarchal structure that is version control.
+
+What is the result of merging two branches together?
+	The result is a single branch with two tags containing all the revisions of both branches.
+Why do we represent it in the diagram the way we do?
+	Because that is how it works. Alternatively, because you remove one tag after the merge not really sure what you are asking here.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Pros you do not have to account for every change especially when changes are made one to one and can be resolved easily.
+	Cons you could have GIT automatically merge everything but when things are not one to one you would end up with bad results or a very complex interpreter that would still get it wrong from time to time.
 
